@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body{
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Mono', sans-serif;
