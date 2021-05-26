@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body{
-    justify-content: center;
-    align-items: center;
     font-family: 'Roboto Mono', sans-serif;
     background-color: #101214;
     color: #7A7C80;
