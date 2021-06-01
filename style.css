@@ -20,7 +20,8 @@ h2,.white{
 }
 
 a{
-    color: #7A7C80;
+    /*color: #7A7C80;*/
+    color: #fff;
     text-decoration: none;
 }
 /* section 1 */
