@@ -135,13 +135,13 @@ img {vertical-align: middle;}
 </div>
 <br>
 
-<div style="text-align:center">
+<!-- <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
   <span class="dot" onclick="currentSlide(4)"></span> 
   <span class="dot" onclick="currentSlide(5)"></span> 
-</div>  
+</div>   -->
             
           <!--<h2>Things I've been watching</h2>
           <h2>Books I've been reading</h2>-->
@@ -169,9 +169,9 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
+  // for (i = 0; i < dots.length; i++) {
+  //     dots[i].className = dots[i].className.replace(" active", "");
+  // }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
